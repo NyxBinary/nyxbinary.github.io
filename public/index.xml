@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniel</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Daniel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://example.org/projects/</link>
+      <pubDate>Tue, 07 Mar 2023 20:46:05 -0600</pubDate>
+      
+      <guid>http://example.org/projects/</guid>
+      <description>Projects  Industrial Project - Google&amp;rsquo;s Firebase | Fall 2022 Typescript, HTML
+ Worked on updating Firebase Web, ensuring tree shakability to speed up loading times. Worked alongside Google employees to plan out and begin the process of updating Firebase Web. Experienced professional work environments and navigating unexpected delays and changes.  Network Traffic Visualization | Fall 2022 React, HTML, CSS, Typescript, Python
+ Worked on backend functionality for network traffic parsing and geolocation data gathering.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Tue, 07 Mar 2023 20:08:09 -0600</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description>Daniel Debassige St. Andrews, Manitoba
+204-485-4216
+danieldebassige@gmail.com
+Education  University of Manitoba Bachelor of Computer Science (B.Sc)
+Sept 2018 - Apr 2024
+ Experienced with a multitude of programming languages and practices.  University of Manitoba Bachelor of Engineering (BE)
+Sept 2015 - Apr 2018
+ Successfully completed 2 years before switching to Computer Science.  Projects  Industrial Project - Google&amp;rsquo;s Firebase | Fall 2022 Typescript, HTML
+ Worked on updating Firebase Web, ensuring tree shakability to speed up loading times.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Tue, 07 Mar 2023 20:08:09 -0600</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Hello there! My name is Daniel Debassige.
+I am a 4th year computer science student
+at the University of Manitoba.
+I love tinkering and low level programming
+of all kinds. Networks and security are my
+two favourite interests currently.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/experience/</link>
+      <pubDate>Tue, 07 Mar 2023 18:37:23 -0600</pubDate>
+      
+      <guid>http://example.org/experience/</guid>
+      <description>Work Experience  The Real Escape, Winnipeg MB | Sept 2021 - Present Facilitator
+ Engaged with clients before, during, and after their experience to ensure a positive and memorable visit. Synergised with coworkers to ensure smooth operation of the facility and high quality experiences for clients. Operated the software used to run the rooms, learned and understood the unique process for each room. Conducted minor repairs to malfunctioning rooms, allowing for continued operation.</description>
+    </item>
+    
+  </channel>
+</rss>

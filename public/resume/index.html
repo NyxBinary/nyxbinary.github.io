@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#300a24}body #terminal{color:#fff}body #user{color:#4e9a06}body #dir{color:#3465a4}body .Typewriter__cursor{color:#fff}a{color:#fff}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003e\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0022daniel-debassige\u0022\u003eDaniel Debassige\u003c\/h1\u003e\n\u003cp\u003eSt. Andrews, Manitoba\u003cbr\u003e\n204-485-4216\u003cbr\u003e\n\u003ca href=\u0022mailto:danieldebassige@gmail.com\u0022\u003edanieldebassige@gmail.com\u003c\/a\u003e\u003c\/p\u003e\n\u003ch2 id=\u0022education\u0022\u003eEducation\u003c\/h2\u003e\n\u003chr\u003e\n\u003ch3 id=\u0022university-of-manitoba\u0022\u003eUniversity of Manitoba\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eBachelor of Computer Science (B.Sc)\u003c\/em\u003e\u003cbr\u003e\nSept 2018 - Apr 2024\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eExperienced with a multitude of programming languages and practices.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022university-of-manitoba-1\u0022\u003eUniversity of Manitoba\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eBachelor of Engineering (BE)\u003c\/em\u003e\u003cbr\u003e\nSept 2015 - Apr 2018\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eSuccessfully completed 2 years before switching to Computer Science.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022projects\u0022\u003eProjects\u003c\/h2\u003e\n\u003chr\u003e\n\u003ch3 id=\u0022industrial-project---googles-firebase--fall-2022\u0022\u003eIndustrial Project - Google\u0026rsquo;s Firebase | Fall 2022\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eTypescript, HTML\u003c\/em\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eWorked on updating Firebase Web, ensuring tree shakability to speed up loading times.\u003c\/li\u003e\n\u003cli\u003eWorked alongside Google employees to plan out and begin the process of updating Firebase Web.\u003c\/li\u003e\n\u003cli\u003eExperienced professional work environments and navigating unexpected delays and changes.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022network-traffic-visualization--fall-2022\u0022\u003eNetwork Traffic Visualization | Fall 2022\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eReact, HTML, CSS, Typescript, Python\u003c\/em\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eWorked on backend functionality for network traffic parsing and geolocation data gathering.\u003c\/li\u003e\n\u003cli\u003eIncreased efficiency of visualization by analyzing network traffic and browser rendering to find and fix bottlenecks.\u003c\/li\u003e\n\u003cli\u003eEnsured smooth communication between server and client browser by using modern network practices.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022cssa-game-jam---keyboard-warrior--winter-2022\u0022\u003eCSSA Game Jam - Keyboard Warrior | Winter 2022\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eC#, Unity\u003c\/em\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eKey player in developing a 2D platformer from scratch for University Game Jam.\u003c\/li\u003e\n\u003cli\u003eWorked on game logic and gameplay elements in C#.\u003c\/li\u003e\n\u003cli\u003eUsed git with the Github flow model to remain organised.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022work-experience\u0022\u003eWork Experience\u003c\/h2\u003e\n\u003chr\u003e\n\u003ch3 id=\u0022the-real-escape-winnipeg-mb---sept-2021---present\u0022\u003eThe Real Escape, Winnipeg MB |  Sept 2021 - Present\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eFacilitator\u003c\/em\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eEngaged with clients before, during, and after their experience to ensure a positive and memorable visit.\u003c\/li\u003e\n\u003cli\u003eSynergised with coworkers to ensure smooth operation of the facility and high quality experiences for clients.\u003c\/li\u003e\n\u003cli\u003eOperated the software used to run the rooms, learned and understood the unique process for each room.\u003c\/li\u003e\n\u003cli\u003eConducted minor repairs to malfunctioning rooms, allowing for continued operation.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022prairies-to-woodlands-remote--sept-2022---feb-2023\u0022\u003ePrairies to Woodlands, Remote | Sept 2022 - Feb 2023\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eDeveloper\u003c\/em\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eWorked with indigenous elders to create an audio based dictionary for the Michif Language.\u003c\/li\u003e\n\u003cli\u003eWorked on parsing ELAN audio recordings, automatically categorizing and sorting audio snippets with custom made software.\u003c\/li\u003e\n\u003cli\u003eParsed and created custom data format for dictionary using Python and JSON.\u003c\/li\u003e\n\u003cli\u003eMigrated server host, moving existing website and software onto new server and ensuring continued functionality.\u003c\/li\u003e\n\u003cli\u003eWorked with elders and project manager to design and create a functional custom website.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022home-hardware-selkirk-mb--apr-2015---mar-2021\u0022\u003eHome Hardware, Selkirk MB | Apr 2015 - Mar 2021\u003c\/h3\u003e\n\u003cp\u003e\u003cem\u003eCustomer Service\/Paint Sales\u003c\/em\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eProvided customer service to 100\u002b clients on a daily basis by assisting with product returns and operating a point of sales system to keep client information up to date and process transactions.\u003c\/li\u003e\n\u003cli\u003eMaintained open communication with coworkers to promote smooth operation and consistency.\u003c\/li\u003e\n\u003cli\u003eDeveloped strong rapport with regulat clients by engaging in friendly conversation and providing personalised requests to meet their project needs.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<span class="navFull">
+        
+    
+    
+
+    
+        
+
+<span>
+    <a href="/">Home</a>
+    <span>&#8192;|&#8192;</span>
+    <a href="./..">/</a>
+</span>
+
+    
+
+        
+        <span class="navCredits">
+            <a href="https://github.com/NyxBinary" target="_blank"><i class="fa fa-github" style="font-size:30px"></i></a>
+        </span>
+</span>
+
+        
+         
+    </body>
+</html>
