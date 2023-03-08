@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<span class="navFull">
+        <!-- left-most part of navbar -->
+    {{ $lengthToCut := mul -1 (add (len .File.BaseFileName) 1) }}
+    {{ $string := substr .RelPermalink 0 $lengthToCut }}
+
+    {{ if .IsPage }}
+        {{ partial "navLinks.html" $string }}
+    {{ else if .IsSection }} <!-- if a list page -->
+        {{ $lengthToCut := mul -1 (add (len .Title) 1) }}
+        {{ $string := substr .RelPermalink 0 $lengthToCut }}
+        {{ partial "navLinks.html" $string }}
+    {{ else if .IsHome }}
+        {{ partial "navLinks.html" "/" }}
+    {{ end }}
+
+        <!-- right-most part of navbar -->
+        <span class="navCredits">
+            <a href="https://github.com/NyxBinary" target="_blank"><i class="fa fa-github" style="font-size:30px"></i></a>
+        </span>
+</span>
