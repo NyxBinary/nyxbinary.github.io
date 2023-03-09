@@ -86,7 +86,7 @@ In the following image I have additional markdown files I use for the theme, but
 
 ### Deploying on GitHub Pages
 
-Time to host the site on GitHub pages!
+Time to host the site on GitHub pages! Following this method will allow you to easily rebuild and deploy your site with any future changes. This is the beauty of this method, deploying static sites with distributed version control makes for a super easy workflow.
 
 1. Push the git repository you made on your local machine to GitHub. 
 	- Note that it is not longer possible to use terminal git without using SSH keys, it is recommended you use git built into an IDE or [GitHub Desktop](https://desktop.github.com/) to do so.
