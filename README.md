@@ -1,9 +1,9 @@
 # Hosting a resume using Hugo and GitHub Pages
----
+
 This README will go over how to create, and then host your resume on GitHub Pages using the Hugo static site generator. 
 
 ## Getting Started
----
+
 
 These instructions will go over getting Hugo up and running on your machine, then hosting it on GitHub Pages. These instructions also assume that you have some basic programming knowledge and can navigate through markdown, opening and using both terminals and git by yourself. I made the following using these instructions.
 
@@ -14,7 +14,7 @@ Using a lightweight markdown based resume has it's advantages for when it comes 
 Andrew Etter in their book Modern Technical Writing recommends markdown languages in addition to the static site generators and distributed version control we are using here. They are using it for writing documentation, but this workflow works very well for hosting a resume as well. It allows for a quick and easy to maintain system that can be updated automatically whenever you need, which allows you to keep an up to date resume that employers can find whenever they need. 
 
 ### Prerequisites
----
+
 
 - [A GitHub account](https://github.com/)
 - Some way to modify files and push changes to GitHub ([VSCode](https://code.visualstudio.com/) is used here for both, but any environment you're comfortable with will work)
@@ -22,7 +22,7 @@ Andrew Etter in their book Modern Technical Writing recommends markdown language
 
 
 ### Installing and setting up Hugo
----
+
 We start by setting up Hugo, these instructions are made for Ubuntu or Debian (or Windows using Ubuntu WSL), but will include links to resources for other OS options where applicable. 
 
 1. Open a terminal for your system, or WSL if on windows. 
@@ -71,7 +71,7 @@ It will show a link to the locally hosted site at the bottom, it should look lik
 If everything looks good, you're all set to modify it and begin deployment!
 
 ### Putting your resume on the website
----
+
 Each theme may have specific instructions to get your resume and information on it. It's recommended you read the README the theme provides. Below are general instructions that may work regardless.
 
 1. Begin by putting your resume markdown file inside the content folder of your website directory. 
@@ -85,7 +85,7 @@ In the following image I have additional markdown files I use for the theme, but
 3. Add additional files, some themes require additional files in order to render the website as desired, these may be images, additional markdown files, or something else. These will be outlined in the config file, and/or the README.
 
 ### Deploying on GitHub Pages
----
+
 Time to host the site on GitHub pages!
 
 1. Push the git repository you made on your local machine to GitHub. 
@@ -199,22 +199,15 @@ Any future changes pushed to the repository will cause it to rebuild your site a
 
 
 ## More Resources
----
+
 - [Etter's Book on Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) - goes over markdown languages, version control, and static site generators
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Hugo Installation](https://gohugo.io/installation/linux/)
 - [Hosting Hugo on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github/) - general instructions, the YAML shown here may be incomplete, using the one provided above has a workaround
 - [Hugo Themes](https://themes.gohugo.io/)
 
-## Authors and Acknowledgements
----
-Thanks to Yukuro for creating the wonderful [shell theme](https://themes.gohugo.io/themes/hugo-theme-shell/).
-Thanks to PurpleBooth for the useful [README](https://github.com/PurpleBooth/a-good-readme-template) template.
-
-And finally thanks to Parth Patel, Eddie Wat, and Omar Taha for proofreading both this README and my resume.
-
 ## FAQs
----
+
 1. "Why is Markdown better than a word processor?"
 	- Markdown is very easy to modify, everything remains a consistent easy to follow format. There is no fiddling with alignment or spacing required. Using the full stack method we've outlined here, any changes made to the resume will appear on the website quickly and without extra effort. 
 
@@ -228,3 +221,10 @@ And finally thanks to Parth Patel, Eddie Wat, and Omar Taha for proofreading bot
 
 3. "My theme does not work with your instructions!"
 	- Each theme will have specific instructions to modify and make it yours. I highly recommend reading the individual README that comes with each theme, that should be able to help!
+
+## Authors and Acknowledgements
+
+Thanks to Yukuro for creating the wonderful [shell theme](https://themes.gohugo.io/themes/hugo-theme-shell/).
+Thanks to PurpleBooth for the useful [README](https://github.com/PurpleBooth/a-good-readme-template) template.
+
+And finally thanks to Parth Patel, Eddie Wat, and Omar Taha for proofreading both this README and my resume.
