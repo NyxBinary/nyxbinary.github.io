@@ -65,4 +65,6 @@ Sept 2015 - Apr 2018
 *Customer Service/Paint Sales*
 - Provided customer service to 100+ clients on a daily basis by assisting with product returns and operating a point of sales system to keep client information up to date and process transactions.
 - Maintained open communication with coworkers to promote smooth operation and consistency. 
-- Developed strong rapport with regulat clients by engaging in friendly conversation and providing personalised requests to meet their project needs.
+- Developed strong rapport with regulat clients by engaging in friendly conversation and providing personalised requests to meet their project needs.  
+  
+  
