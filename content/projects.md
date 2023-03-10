@@ -19,8 +19,8 @@ draft: false
 
 ### CSSA Game Jam - Keyboard Warrior | Winter 2022
 *C#, Unity*
-- Key player in developing a 2D platformer from scratch for University Game Jam.
-- Worked on game logic and gameplay elements in C#.
+- Developed a 2d platformer from scratch with a team of 5 for a University Game Jam.
+- Focused on game logic and gameplay elements in C#.
 - Used git with the Github flow model to remain organised.
 
 ### ChefsNotes - Recipe Manager App | Winter 2022

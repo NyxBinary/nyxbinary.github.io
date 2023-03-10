@@ -35,11 +35,12 @@ Sept 2015 - Apr 2018
 - Increased efficiency of visualization by analyzing network traffic and browser rendering to find and fix bottlenecks.
 - Maintained smooth communication between server and client browser by using modern network practices.
 
-### CSSA Game Jam - Keyboard Warrior | Winter 2022
-*C#, Unity*
-- Developed a 2d platformer from scratch with a team of 5 for a University Game Jam.
-- Focused on game logic and gameplay elements in C#.
-- Used git with the Github flow model to remain organised.
+### ChefsNotes - Recipe Manager App | Winter 2022
+*Android Studio, Java, HSQLDB*
+- Developed a recipe manager and database in a team of 5.
+- Led communication between team members and facilitated discussions to ensure everyone was on track and participating.
+- Focused on logic layer, developing communication and data transfer between UI and database.
+- Using GitLab to remain organised, we met our goals by the strict deadlines set by the professor.
 
 
 ## Work Experience
@@ -66,5 +67,4 @@ Sept 2015 - Apr 2018
 - Provided customer service to 100+ clients on a daily basis by assisting with product returns and operating a point of sales system to keep client information up to date and process transactions.
 - Maintained open communication with coworkers to promote smooth operation and consistency. 
 - Developed strong rapport with regulat clients by engaging in friendly conversation and providing personalised requests to meet their project needs.  
-  
   
