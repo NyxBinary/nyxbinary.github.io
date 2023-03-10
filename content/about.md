@@ -14,4 +14,4 @@ at the University of Manitoba.
 
 I love tinkering and low level programming   
 of all kinds. Networks and security are my  
-two favourite interests currently.
+two main interests currently.
