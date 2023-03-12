@@ -50,7 +50,7 @@ Sept 2015 - Apr 2018
 - Engage with clients before, during, and after their experience to ensure a positive and memorable visit.
 - Synergise with coworkers to ensure smooth operation of the facility and high quality experiences for clients.
 - Operate the software used to run the rooms, learning and understanding the unique process for each room.
-- Conducte minor repairs to malfunctioning rooms, allowing for continued operation.
+- Conduct minor repairs to malfunctioning rooms, allowing for continued operation.
 
 
 ### Prairies to Woodlands, Remote | Sept 2022 - Feb 2023
