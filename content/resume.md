@@ -8,8 +8,9 @@ St. Andrews, Manitoba
 204-485-4216  
 [danieldebassige@gmail.com](mailto:danieldebassige@gmail.com)
 
-## Education
 ---
+## Education
+
 ### University of Manitoba
 *Bachelor of Computer Science (B.Sc)*  
 Sept 2018 - Apr 2024
@@ -20,9 +21,16 @@ Sept 2018 - Apr 2024
 *Bachelor of Engineering (BE)*  
 Sept 2015 - Apr 2018
 - Successfully completed 2 years before switching to Computer Science.
+---
+## Technical Skills
 
-## Projects
+**Languages**: C, C++, C#, Bash, Assembly, Python, Java, Javascript, Typescript, HTML/CSS, SQL  
+**Frameworks**: Firebase, React, Bootstrap   
+**Developer Tools**: Linux/Unix, Git, VSCode, Vim
+
 --- 
+## Projects
+
 ### Industrial Project - Google's Firebase | Fall 2022
 *Typescript, HTML*
 - Updated Firebase Web, ensuring tree shakability to speed up loading times.
@@ -42,9 +50,9 @@ Sept 2015 - Apr 2018
 - Focused on logic layer, developing communication and data transfer between UI and database.
 - Using GitLab to remain organised, we met our goals by the strict deadlines set by the professor.
 
-
-## Work Experience
 ---
+## Work Experience
+
 ### The Real Escape, Winnipeg MB |  Sept 2021 - Present
 *Facilitator*
 - Engage with clients before, during, and after their experience to ensure a positive and memorable visit.
