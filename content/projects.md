@@ -5,6 +5,13 @@ draft: false
 
 ## Projects
 --- 
+
+### The Real Escape Leaderboard | Summer 2023
+*HTML, CSS, JavaScript*
+- Using a raspberry pi as a terminal, implemented a leaderboard that can display live data as groups complete rooms.
+- Increased visual appearance of previous leaderboard system with CSS and JavaScript, improving upon the appearance and functionality of the previous powerpoint system.
+- Allocated resources required for the project, along with allocating time to complete higher priority tasks while making progress on the project.
+
 ### Industrial Project - Google's Firebase | Fall 2022
 *Typescript, HTML*
 - Worked on updating Firebase Web, ensuring tree shakability to speed up loading times.

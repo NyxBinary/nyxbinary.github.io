@@ -53,6 +53,13 @@ Sept 2015 - Apr 2018
 ---
 ## Work Experience
 
+*Programmer*
+- Designed and implemented unqiue software solutions tailored to specific themes, stories, and player interactions, enhancing player experience.
+- Utilized Arduino, Raspberry Pi, and other microcontrollers to create interactive props, sensors, and triggers, adding interactivity to the puzzles. 
+- Ensured reliability and stability of existing software systems by performing regular maintenance, troubleshooting, and updates as needed. 
+- Collaborated with cross-functional teams to brainstorm, prototype, and implement new concepts, pushing the boundaries of traditional escape room design.
+- Assisted in the setup and installation of technical components within physical spaces, ensuring seamless integration and optimal functionality. 
+
 ### The Real Escape, Winnipeg MB |  Sept 2021 - Present
 *Facilitator*
 - Engage with clients before, during, and after their experience to ensure a positive and memorable visit.
@@ -69,10 +76,4 @@ Sept 2015 - Apr 2018
 - Migrated server host, moving existing website and software onto new server and ensuring continued functionality.
 - Worked with elders and project manager to design and create a functional custom website. 
 
-
-### Home Hardware, Selkirk MB | Apr 2015 - Mar 2021
-*Customer Service/Paint Sales*
-- Provided customer service to 100+ clients on a daily basis by assisting with product returns and operating a point of sales system to keep client information up to date and process transactions.
-- Maintained open communication with coworkers to promote smooth operation and consistency. 
-- Developed strong rapport with regulat clients by engaging in friendly conversation and providing personalised requests to meet their project needs.  
   

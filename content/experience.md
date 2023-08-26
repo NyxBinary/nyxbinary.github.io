@@ -5,6 +5,15 @@ draft: false
 
 ## Work Experience
 ---
+
+### The Real Escape, Winnipeg MB | June 2023 - Present
+*Programmer*
+- Designed and implemented unqiue software solutions tailored to specific themes, stories, and player interactions, enhancing player experience.
+- Utilized Arduino, Raspberry Pi, and other microcontrollers to create interactive props, sensors, and triggers, adding interactivity to the puzzles. 
+- Ensured reliability and stability of existing software systems by performing regular maintenance, troubleshooting, and updates as needed. 
+- Collaborated with cross-functional teams to brainstorm, prototype, and implement new concepts, pushing the boundaries of traditional escape room design.
+- Assisted in the setup and installation of technical components within physical spaces, ensuring seamless integration and optimal functionality. 
+
 ### The Real Escape, Winnipeg MB |  Sept 2021 - Present
 *Facilitator*
 - Engaged with clients before, during, and after their experience to ensure a positive and memorable visit.
