@@ -9,8 +9,9 @@ draft: false
 
 My name is Daniel Debassige.
 
-I am a computer science student in my final  
-semester at the University of Manitoba.
+I am a computer science student in my  
+final semester at the University of  
+Manitoba.  
 
 Currently I am working on designing  
 and maintaining escape rooms and  
