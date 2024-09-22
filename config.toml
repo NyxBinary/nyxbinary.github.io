@@ -1,0 +1,45 @@
+baseURL = '/'
+languageCode = 'en-us'
+theme = "hugo-theme-terminal"
+paginate = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+
+[languages]
+  [languages.en]
+    title = "Dani's Terminal"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Dani's Terminal"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "- About Me"
+        url = "/"
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "- Resume"
+        url = "/resume"
+      [[languages.en.menu.main]]
+        identifier = "experience"
+        name = "Experience"
+        url = "/posts/experience"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/posts/projects"
