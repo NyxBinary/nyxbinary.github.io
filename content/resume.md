@@ -32,7 +32,7 @@ Sept 2015 - Apr 2018
 --- 
 # Work Experience
 
-### The Real Escape, Winnipeg MB |  August 2023 - Present
+### The Real Escape, Winnipeg MB |  August 2023 - February 2025
 *Software Enginner*
 - Designed and implemented unqiue software solutions in C++ tailored to specific themes, stories, and player interactions, enhancing player experience.
 - Designed unique games and engaging experiences for players to interact with tailored to the theme and overall experience of the room.
