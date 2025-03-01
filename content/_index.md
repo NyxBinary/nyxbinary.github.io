@@ -14,7 +14,6 @@ as a Software Engineer! By working with embedded systems I get to design puzzles
 experiences and bring them to life, there is nothing more gratifying than seeing your creations work well.
 
 I love tinkering, which includes a vast range of things like 3d printing, electronics, and networking.
-I'm facinated 
 
 I also love space! Feel free to nerd out with me anytime. I really enjoy the subject of space infrastructure, and the possibility of megastructures.
 

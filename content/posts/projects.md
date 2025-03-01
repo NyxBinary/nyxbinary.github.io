@@ -8,11 +8,11 @@ draft: false
 --- 
 
 ### The Arcade - The Real Escape Canada | November 2023 - May 2024
-*C++, Bash*
+*C, C++, Bash*
 - Designed and created several unique interactive video games tailored to the room's retro video game theme.
 - Installed the majority of the digital assets in the room, including custom circuit boards, wiring, Raspberry Pis, and speaker components. 
 - Implemented new technology in an efficient and timely manner, expanding the available options for future room development. 
-- Wrote and modifyied over 18,000 lines of code, using modern techniques and algorithms to ensure a high quality codebase and player experience.
+- Wrote and modified over 18,000 lines of code, using modern techniques and algorithms to ensure a high quality codebase and player experience.
 
 ### Industrial Project - Google's Firebase | Fall 2022
 *Typescript, HTML*
